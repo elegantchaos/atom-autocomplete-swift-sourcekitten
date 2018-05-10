@@ -1,0 +1,23 @@
+{
+  "name": "atom-autocomplete-swift-sourcekitten",
+  "main": "./lib/main",
+  "version": "1.0.0",
+  "description": "Swift autocompletion for Atom, using SourceKitten.",
+  "keywords": [
+    "autocomplete",
+    "provider",
+  ],
+  "repository": "https://github.com/elegantchaos/atom-autocomplete-swift-sourcekitten",
+  "author": "Sam Deane <sam@elegantchaos.com> (http://elegantchaos.com)",
+  "license": "MIT",
+  "engines": {
+    "atom": ">=1.15.0 <2.0.0"
+  },
+  "providedServices": {
+    "autocomplete.provider": {
+      "versions": {
+        "2.0.0": "getProvider"
+      }
+    }
+  }
+}
