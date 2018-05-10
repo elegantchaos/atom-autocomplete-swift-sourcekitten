@@ -5,7 +5,7 @@
   "description": "Swift autocompletion for Atom, using SourceKitten.",
   "keywords": [
     "autocomplete",
-    "provider",
+    "provider"
   ],
   "repository": "https://github.com/elegantchaos/atom-autocomplete-swift-sourcekitten",
   "author": "Sam Deane <sam@elegantchaos.com> (http://elegantchaos.com)",
