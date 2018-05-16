@@ -21,8 +21,9 @@
     }
   },
   "configSchema": {
-    "SourceKitten Location": {
-      "description": "Path to the sourcekitten binary. Default behaviour is to search for it in $PATH, but you can specify an explicit location here if required.",
+    "sourceKittenLocation": {
+      "title": "SourceKitten Location",
+      "description": "The binary to run to obtain completions.\n \nDefault behaviour if this setting is left empty is to search for a command called `sourcekitten`, but you can specify an explicit path or different command here if required.",
       "type": "string",
       "default": ""
     }
