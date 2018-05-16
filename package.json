@@ -19,5 +19,12 @@
         "2.0.0": "getProvider"
       }
     }
+  },
+  "configSchema": {
+    "SourceKitten Location": {
+      "description": "Path to the sourcekitten binary. Default behaviour is to search for it in $PATH, but you can specify an explicit location here if required.",
+      "type": "string",
+      "default": ""
+    }
   }
 }
